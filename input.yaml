@@ -1,0 +1,13 @@
+tests:
+  - name: "Test 1: Unsuccessful file opening"
+    points: 2
+    sequence:
+      - in : "v1"
+      - out: "V1: Neotvorene txt subory."
+      - out: ""
+  - name: "Test 2: h"
+    points: 2
+    sequence:
+      - in: "h"
+      - out: "H: Neotvoreny subor."
+      - out: ""
